@@ -171,8 +171,8 @@ module.exports = router;
                 <option value="408">藝408</option>
                 <option value="409">藝409</option>
                 <option value="410">藝410</option>
-                <option value="big">大研討</option>
-                <option value="small">小研討</option>
+                <option value="研討室1">大研討</option>
+                <option value="研討室2">小研討</option>
             </select>
         </span>    
         <br/>
@@ -573,6 +573,13 @@ module.exports = router;
 <script>
     alert("TA借用教室必須有證明文件");
     history.go(-1);
+</script>   
+```
+## fileSizeError.ejs
+```
+<script>
+    alert("圖檔過大, 上傳失敗!");
+    location.href = "/";
 </script>   
 ```
 ## notFound.ejs
