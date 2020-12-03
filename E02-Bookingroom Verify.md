@@ -176,7 +176,7 @@ const roomverify = require('./utility/roomverify');
 
 //接收POST請求
 router.post('/', function(req, res, next) {
-    var userno = req.body.userno;
+    var userno = (req.body.userno).toLowerCase();
     if(typeof(userno) === 'string'){
         userno = [userno];
     }
