@@ -290,7 +290,7 @@ router.post('/', function(req, res, next) {
     var mo = bdate.getMonth() + 1;
     console.log("mo：" + mo);       //月
 
-    var bd = bdate.getDate() + 7;
+    var bd = bdate.getDate() + 14;
     console.log('bd：' + bd);       //日
 
     if(mo == '1' || mo == '3' || mo == '5' || mo == '7' || mo == '8' || mo == '10' || mo == '12'){
