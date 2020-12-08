@@ -149,12 +149,20 @@ module.exports = router;
         <span class="name">設備: </span>
         <span class="value">
             <select name="category" required>
-                <option value="電腦">電腦</option>
-                <option value="滑鼠">滑鼠</option>
-                <option value="Zenbo">Zenbo</option>
-                <option value="音源線">音源線</option>
-                <option value="鍵盤">鍵盤</option>
-                <option value="計算機">計算機</option>
+                <option value="筆記型電腦">筆記型電腦</option>
+                <option value="硬碟">硬碟</option>
+                <option value="可攜式硬碟">可攜式硬碟</option>
+                <option value="Zenbo機器人">Zenbo機器人</option>
+                <option value="簡報筆">簡報筆</option>
+                <option value="電腦顯示卡">電腦顯示卡</option>
+                <option value="防盜系統">防盜系統</option>
+                <option value="投影機">投影機</option>
+                <option value="麥克風組">麥克風組</option>
+                <option value="備份軟體">備份軟體</option>
+                <option value="防毒軟體">防毒軟體</option>
+                <option value="威力導演">威力導演</option>
+                <option value="平板電腦">平板電腦</option>
+                <option value="iPad mini 4">iPad mini 4</option>
             </select>
         </span>    
         <br/>
